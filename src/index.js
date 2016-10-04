@@ -89,7 +89,6 @@ function _formatInline(element: InlineElement): string {
   } else if (typeof element === 'string') {
     return element;
   } else {
-    console.log(element);
     invariant(false, 'Unknown inline element: %s', element);
   }
 }
