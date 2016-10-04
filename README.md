@@ -33,3 +33,9 @@ print(
   )
 )
 ```
+
+Output:
+
+![output][output]
+
+[output]: test.png
