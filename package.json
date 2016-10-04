@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/andreypopp/console-ui.git"
   },
+  "files": [
+    "lib/"
+  ],
   "keywords": [
     "console",
     "ui",
@@ -22,6 +25,10 @@
   },
   "homepage": "https://github.com/andreypopp/console-ui#readme",
   "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-3": "^6.17.0",
     "flow-bin": "^0.33.0",
     "jest-cli": "^16.0.0"
   },
