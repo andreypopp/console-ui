@@ -26,7 +26,7 @@ function errorHeader(filename, line, col) {
 }
 
 print(
-  paragraph(errror('Errors found:')),
+  paragraph(error('Errors found:')),
   listItem(
     paragraph(errorHeader('index.js', 10, 23)),
     paragraph('Cannot find module ', em('react'))
