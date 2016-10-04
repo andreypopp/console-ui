@@ -1,0 +1,33 @@
+{
+  "name": "console-ui",
+  "version": "0.1.0",
+  "description": "Render console UI with easy",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreypopp/console-ui.git"
+  },
+  "keywords": [
+    "console",
+    "ui",
+    "terminal"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreypopp/console-ui/issues"
+  },
+  "homepage": "https://github.com/andreypopp/console-ui#readme",
+  "devDependencies": {
+    "flow-bin": "^0.33.0",
+    "jest-cli": "^16.0.0"
+  },
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "invariant": "^2.2.1",
+    "word-wrap": "^1.1.0"
+  }
+}
